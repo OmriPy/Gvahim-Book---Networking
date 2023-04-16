@@ -4,7 +4,7 @@ from utils import find_web_address
 DNS_SERVER_IP = '0.0.0.0'
 DNS_SERVER_PORT = 53
 DEFUALT_BUFFER_SIZE = 1024
-DESTINATION_IP = b'\x08\x08\x08\x08' #b'\xD4\x8F\x46\x28'
+DESTINATION_IP = b'\xD4\x8F\x46\x28'
 
 
 def response_query(data: bytes) -> bytes:
